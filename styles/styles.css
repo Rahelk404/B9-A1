@@ -17,10 +17,17 @@
 }
 
 .main-banner {
-    /* margin: 50px 140px; */
     margin: 50px auto;
     max-width: 1600px;
     width: 82%;
+}
+
+.banner-pri {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 150px;
+    height: 600px;
 }
 
 /* Header style */
@@ -28,11 +35,6 @@
 header {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/BannerImage.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    padding-top: 150px;
-    height: 600px;
 }
 
 
