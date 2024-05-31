@@ -16,21 +16,30 @@
     padding: 0;
 }
 
+.main-banner {
+    /* margin: 50px 140px; */
+    margin: 50px auto;
+    max-width: 1600px;
+    width: 82%;
+}
+
 /* Header style */
 
 header {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/BannerImage.png');
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-top: 150px;
     height: 600px;
-    margin: 50px 140px;
 }
+
+
 
 .section-heading {
     padding: 133px 344px 177px 344px;
+    text-align: center;
 }
 
 .section-heading h3 {
@@ -45,10 +54,66 @@ header {
 
 .section-heading h1 {
     color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px; /* 131.944% */
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/* 65% off or 2nd section start */
+
+
+.hny-off-text {
+    text-align: center;
+}
+
+/* HNY heading style */
+.hny-off-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+    margin-top: 120px;
+}
+
+.hny-off-text h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hny-off-text h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+/* 65% off / Hny image style */
+
+.hny-off-content {
+    margin: 50px 400px;
+}
+
+.hny-off-content img {
+    align-items: center;
+    justify-items: center;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
 }
