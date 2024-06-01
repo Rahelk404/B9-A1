@@ -119,3 +119,77 @@ header {
     height: 500px;
     flex-shrink: 0;
 }
+
+
+/* Midnight party section */
+
+.section-banner {
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    width: 82%;
+    margin: 0 auto;
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+
+.mnp-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    max-width: 642px;
+}
+
+.mnp-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    max-width: 800px;
+    margin-top: 24px;
+}
+
+.mnp-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.section-content img {
+    padding: 68px 138px 67px 0px;
+    
+}
+
+.mnp-text * {
+    margin-left: 126px;
+}
+
+.btn-cls {
+    border-radius: 8px;
+    border: none;
+    background: #Fff;
+    padding: 16px 32px;
+    margin-top: 50px;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 150px;
+}
