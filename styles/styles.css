@@ -304,6 +304,7 @@ header {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 212px;
+    margin: 120px 0;
 }
 
 .news-letter-section {
@@ -376,4 +377,87 @@ header {
     text-transform: capitalize;
     outline: none;
     cursor: pointer;
+}
+
+
+/* Footer section start */
+
+#footer {
+    background: #070211;
+    /* max-width: 1600px; */
+    height: 609px;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.footer-head-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    max-width: 375px;
+    height: 80px;
+}
+
+.footer-head-right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+/* Footer head right image section */
+.image-s {
+    position: relative;
+}
+
+.image-s img {
+    vertical-align: middle;
+}
+
+/* Footer middle section */
+
+hr {
+    margin: 50px 0;
+}
+
+.footer-m-img {
+    text-align: center;
+
+}
+
+.footer-m-img img {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+
+
+/* Footer End */
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-end p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
