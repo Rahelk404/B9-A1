@@ -448,7 +448,7 @@ hr {
 
 /* Footer End */
 
-.footer-end{
+.footer-end {
     display: flex;
     justify-content: space-between;
 }
@@ -460,4 +460,98 @@ hr {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+
+/* Bonus Section Start */
+
+/* Shared style */
+.nbo p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+/* Shared style */
+
+.nbo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+/* Nbo left style */
+.nbo-text {
+    max-width: 392px;
+    height: 128px;
+}
+
+.nbo-text * {
+    margin-bottom: 16px;
+}
+
+.nbo-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nbo-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* Nbo right style */
+.nbo-text-r {
+    max-width: 280px;
+    height: 96px;
+}
+.nbo-text-r h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.nbo-text-r img{
+    margin-top: 43px;
+}
+
+/* Nbo Images style */
+.nbo-image {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 450px; 
+    height: 450px;
+   background: url('../resources/Ellipse1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.nbo-img{
+    bottom: 5.5em;
+    position: relative;
+}
+
+.nbo-img img {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
 }
