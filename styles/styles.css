@@ -240,16 +240,35 @@ header {
 }
 
 /* Our awesome portfolio */
-
-#portfolio-section {
-    margin-top: 120px;
-}
-
-.portfolio-banner {
+.portfolio-head {
     margin: 0 auto;
     max-width: 1600px;
     width: 82%;
+    margin-bottom: 120px;
 }
+
+.portfolio-main {
+    
+}
+
+.portfolio-text {
+    max-width: 1320px;
+    width: 100%;
+}
+
+.portfolio-content {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-content .rec-img {
+    width: 500px;
+    height: 550px;
+    border-radius: 16px;
+}
+
 
 .portfolio-text h3 {
     color: #F00;
@@ -261,7 +280,7 @@ header {
     margin-bottom: 16px;
 }
 
-.portfolio-text h2 {
+.portfolio-text h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -283,19 +302,6 @@ header {
     margin-bottom: 50px;
 }
 
-.portfolio-content {}
-
-.portfolio-up,
-.portfolio-down {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 24px;
-    align-items: center;
-}
-
-.portfolio-img .hover {
-    margin-right: 100px;
-}
 
 
 /* Newsletter section */
@@ -520,6 +526,7 @@ hr {
     max-width: 280px;
     height: 96px;
 }
+
 .nbo-text-r h1 {
     color: #F00;
     font-family: Inter;
@@ -530,7 +537,7 @@ hr {
     margin-bottom: 16px;
 }
 
-.nbo-text-r img{
+.nbo-text-r img {
     margin-top: 43px;
 }
 
@@ -538,14 +545,14 @@ hr {
 .nbo-image {
     border-radius: 463px;
     border: 15px solid #F00;
-    width: 450px; 
+    width: 450px;
     height: 450px;
-   background: url('../resources/Ellipse1.png');
-   background-repeat: no-repeat;
-   background-position: center;
+    background: url('../resources/Ellipse1.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.nbo-img{
+.nbo-img {
     bottom: 5.5em;
     position: relative;
 }
