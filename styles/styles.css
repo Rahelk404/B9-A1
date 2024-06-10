@@ -247,9 +247,7 @@ header {
     margin-bottom: 120px;
 }
 
-.portfolio-main {
-    
-}
+.portfolio-main {}
 
 .portfolio-text {
     max-width: 1320px;
@@ -261,12 +259,19 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 .portfolio-content .rec-img {
+    display: block;
     width: 500px;
     height: 550px;
     border-radius: 16px;
+}
+
+.portfolio-content .rec-img:hover {
+    transform: scale(1.05);
 }
 
 
@@ -561,4 +566,70 @@ hr {
     width: 364.844px;
     height: 364.844px;
     flex-shrink: 0;
+}
+
+/* Holiday  Sale 50% section */
+.holiday-text {
+    text-align: center;
+}
+
+.holiday-text>h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.holiday-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.holiday-text h1 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    width: 100%;
+    height: 96px;
+}
+
+.holiday-content {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.main-img {
+    background:  url('../resources/Rectangle1.png') , url('../resources/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom center;
+    background-size: cover, ;
+    background-image: 0, 1520px;
+}
+
+
+.back-img {
+  
 }
