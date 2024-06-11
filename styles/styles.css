@@ -623,12 +623,9 @@ hr {
     margin-bottom: 120px;
 }
 
-.main-img {}
 
 .rectanglex img {
     position: relative;
-    /* width: 206.841px;
-    height: 206.841px; */
     right: 150px;
     top: 86px;
     bottom: 60px;
